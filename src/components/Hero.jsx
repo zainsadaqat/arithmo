@@ -19,13 +19,13 @@ const Hero = () => {
           </p>
           <div className="flex flex-col justify-center items-center my-[32px] md:flex-row md:justify-start">
             <Button text="Start for free" />
-            <span className="p-2 text-[12px] md:ml-[16px]">
+            <span className="p-2 text-[12px] md:ml-[8px]">
               No credit card & installtion required
             </span>
           </div>
         </div>
         <div className="">
-          <img src={HeroImage} alt="Hero Image" width={500} height={600} />
+          <img src={HeroImage} alt="Hero Image" width={600} height={700} />
         </div>
       </div>
     </section>
