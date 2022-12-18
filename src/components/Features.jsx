@@ -3,17 +3,17 @@ import CheckMark from './CheckMark';
 
 const Features = () => {
   return (
-    <section className="max-w-7xl m-auto p-2">
-      <div className="mt-8 flex items-center">
-        <article className="m-8 p-8 bg-[#F1F3FA] flex justify-between items-center max-w-[900px] flex-wrap">
+    <section id="features" className="max-w-6xl mr-auto">
+      <div className="my-16 flex justify-center items-center">
+        <article className="bg-[#F1F3FA] p-4 flex justify-end items-center max-w-[1100px] flex-wrap">
           {/* Box 1 */}
-          <div className="m-4 p-2 bg-white flex items-center rounded-[10px]">
+          <div className="m-4 py-4 bg-white flex items-center rounded-[10px]">
             <div className="p-4">
               <CheckMark />
             </div>
-            <div className="">
-              <h4 className="text-[16px] font-bold">GDPR Compliant</h4>
-              <p className="text-[12px] max-w-[300px] leading-6">
+            <div className="p-2">
+              <h4 className="text-[12px] font-bold">GDPR Compliant</h4>
+              <p className="text-[12px] max-w-[230px] leading-6">
                 Protects your data in compliance with the European Union GDPR.
                 Your Data will only be saved temporarly.
               </p>
@@ -21,13 +21,13 @@ const Features = () => {
           </div>
 
           {/* Box 2 */}
-          <div className="m-4 p-2 bg-white flex justify-between items-center rounded-[10px]">
-            <div className="p-2">
+          <div className="m-4 py-4 bg-white flex items-center rounded-[10px]">
+            <div className="p-4">
               <CheckMark />
             </div>
             <div className="p-2">
-              <h4 className="text-[16px] font-bold">Fast & Time efficient</h4>
-              <p className="text-[12px] max-w-[300px] leading-6">
+              <h4 className="text-[12px] font-bold">Fast & Time efficient</h4>
+              <p className="text-[12px] max-w-[230px] leading-6">
                 Helps to increase work efficency by a mimum of 10X and gives the
                 freedom to focus on core business
               </p>
@@ -35,57 +35,61 @@ const Features = () => {
           </div>
 
           {/* Box 3 */}
-          <div className="m-4 p-2 bg-white flex justify-between items-center rounded-[10px]">
-            <div className="p-2">
+          <div className="m-4 py-4 bg-white flex items-center rounded-[10px]">
+            <div className="p-4">
               <CheckMark />
             </div>
             <div className="p-2">
-              <h4 className="text-[16px] font-bold">Fast & Time efficient</h4>
-              <p className="text-[12px] max-w-[300px] leading-6">
-                Helps to increase work efficency by a mimum of 10X and gives the
-                freedom to focus on core business
+              <h4 className="text-[12px] font-bold">Easy to use</h4>
+              <p className="text-[12px] max-w-[230px] leading-6">
+                Designed to be used by everybody. Requires no technical
+                knowledge. No coding. If you need help just watch the
+                explainatory video here
               </p>
             </div>
           </div>
 
           {/* Box 4 */}
-          <div className="m-4 p-2 bg-white flex justify-between items-center rounded-[10px]">
-            <div className="p-2">
+          <div className="m-4 py-4 bg-white flex items-center rounded-[10px]">
+            <div className="p-4">
               <CheckMark />
             </div>
             <div className="p-2">
-              <h4 className="text-[16px] font-bold">Fast & Time efficient</h4>
-              <p className="text-[12px] max-w-[300px] leading-6">
-                Helps to increase work efficency by a mimum of 10X and gives the
-                freedom to focus on core business
+              <h4 className="text-[12px] font-bold">
+                Data Selection & Validation
+              </h4>
+              <p className="text-[12px] max-w-[230px] leading-6">
+                You are in full control. You can at any point change selections,
+                edit, etc. You decide which data is important to you
               </p>
             </div>
           </div>
 
           {/* Box 5 */}
-          <div className="m-4 p-2 bg-white flex justify-between items-center rounded-[10px]">
-            <div className="p-2">
+          <div className="m-4 py-4 bg-white flex items-center rounded-[10px]">
+            <div className="p-4">
               <CheckMark />
             </div>
             <div className="p-2">
-              <h4 className="text-[16px] font-bold">Fast & Time efficient</h4>
-              <p className="text-[12px] max-w-[300px] leading-6">
-                Helps to increase work efficency by a mimum of 10X and gives the
-                freedom to focus on core business
+              <h4 className="text-[12px] font-bold">
+                No Installation required
+              </h4>
+              <p className="text-[12px] max-w-[230px] leading-6">
+                Browser based. Use it online anytime and anywhere
               </p>
             </div>
           </div>
 
           {/* Box 6 */}
-          <div className="m-4 p-2 bg-white flex justify-between items-center rounded-[10px]">
-            <div className="p-2">
+          <div className="m-4 py-4 bg-white flex items-center rounded-[10px]">
+            <div className="p-4">
               <CheckMark />
             </div>
             <div className="p-2">
-              <h4 className="text-[16px] font-bold">Fast & Time efficient</h4>
-              <p className="text-[12px] max-w-[300px] leading-6">
-                Helps to increase work efficency by a mimum of 10X and gives the
-                freedom to focus on core business
+              <h4 className="text-[12px] font-bold">Free</h4>
+              <p className="text-[12px] max-w-[230px] leading-6">
+                Start the free version without any hidden costs. Just sign up
+                and get started. No credit card required.
               </p>
             </div>
           </div>
