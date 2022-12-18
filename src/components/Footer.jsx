@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
               </div>
               <ul>
                 <li className="mt-1">
-                  <a href="#">Home</a>
+                  <a href="#home">Home</a>
                 </li>
                 <li className="mt-1">
                   <a href="#">About</a>
@@ -31,10 +32,10 @@ const Footer = () => {
               </div>
               <ul>
                 <li className="mt-1">
-                  <a href="#">Blog</a>
+                  <Link to="blogs">Blog</Link>
                 </li>
                 <li className="mt-1">
-                  <a href="#">FAQs</a>
+                  <Link to="/faq">FAQs</Link>
                 </li>
                 <li className="mt-1">
                   <a href="#">Explain Video</a>
@@ -52,7 +53,7 @@ const Footer = () => {
               </div>
               <ul>
                 <li className="mt-1">
-                  <a href="#">Contact Us</a>
+                  <a href="#contact">Contact Us</a>
                 </li>
                 <li className="mt-1">
                   <a href="#">Download PressKit</a>
@@ -67,16 +68,16 @@ const Footer = () => {
               </div>
               <ul>
                 <li className="mt-1">
-                  <a href="#">Imprint</a>
+                  <Link to="/imprint">Imprint</Link>
                 </li>
                 <li className="mt-1">
-                  <a href="#">Terms & Condition</a>
+                  <Link to="terms-and-condition">Terms & Condition</Link>
                 </li>
                 <li className="mt-1">
-                  <a href="#">Privacy Policy</a>
+                  <Link to="privacy-policy">Privacy Policy</Link>
                 </li>
                 <li className="mt-1">
-                  <a href="#">Cookie Policy</a>
+                  <Link to="cookie-policy">Cookie Policy</Link>
                 </li>
               </ul>
             </div>
