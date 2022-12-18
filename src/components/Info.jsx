@@ -12,11 +12,11 @@ const Info = () => {
           Structured Data can be used to create value
         </h2>
 
-        <div className="my-[16px] flex justify-evenly items-center flex-wrap">
+        <div className="my-[16px] flex justify-center items-center flex-wrap">
           {/* 1. Card Begins */}
-          <div className="min-w-[280px] my-4 rounded-[12px] flex flex-col justify-center items-center bg-[#fff] px-8 py-4">
+          <div className="min-w-[220px] p-4 m-8 rounded-[12px] flex flex-col justify-center items-center bg-[#fff]">
             <div>
-              <img src={ExcelIcon} alt="excel image" width={80} height={90} />
+              <img src={ExcelIcon} alt="excel image" width={80} height={80} />
             </div>
             <div>
               <ul className="mt-4">
@@ -58,13 +58,13 @@ const Info = () => {
           {/* 1 Card Ends */}
 
           {/* 2. Card Begins */}
-          <div className="min-w-[280px] my-4 rounded-[12px] px-8 flex flex-col justify-center items-center bg-[#fff] p-4">
+          <div className="min-w-[220px] p-4 m-8 rounded-[12px] flex flex-col justify-center items-center bg-[#fff]">
             <div>
               <img
                 src={DatabaseIcon}
                 alt="excel image"
                 width={80}
-                height={90}
+                height={80}
               />
             </div>
             <div>
@@ -107,13 +107,13 @@ const Info = () => {
           {/* 2 Card Ends */}
 
           {/* 3. Card Begins */}
-          <div className="min-w-[280px] my-4 rounded-[12px] px-8 flex flex-col justify-center items-center bg-[#fff] p-4">
+          <div className="min-w-[220px] p-4 m-8 pr-2 rounded-[12px] flex flex-col justify-center items-center bg-[#fff]">
             <div>
               <img
                 src={VisualizationIcon}
                 alt="excel image"
                 width={80}
-                height={90}
+                height={80}
               />
             </div>
             <div>

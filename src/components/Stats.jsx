@@ -13,9 +13,11 @@ const Stats = () => {
       </h3>
       <div className="flex flex-col justify-center md:flex-row">
         <div className="flex justify-center items-center border-4 px-4 m-4">
-          <span className="p-1 text-[18px] font-bold">MIN</span>
-          <span className="p-1 font-bold text-[40px] text-[#0029FF]">10X*</span>
-          <span className="p-1 text-[18px] font-bold">FASTER</span>
+          <span className="px-2 text-[14px] font-bold">MIN</span>
+          <span className="px-2 font-bold text-[36px] text-[#0029FF]">
+            10X*
+          </span>
+          <span className="px-2 text-[14px] font-bold">FASTER</span>
           <div className="p-2">
             <img src={GraphUp} alt="Graph Up Image" width={80} height={80} />
           </div>
@@ -24,9 +26,11 @@ const Stats = () => {
           <div className="p-4">
             <img src={GraphDown} alt="Graph Up Image" width={80} height={80} />
           </div>
-          <span className="p-1 text-[18px] font-bold">MIN</span>
-          <span className="p-1 font-bold text-[40px] text-[#0029FF]">70X*</span>
-          <span className="p-1 text-[18px] font-bold">CHEAPER</span>
+          <span className="px-2 text-[14px] font-bold">MIN</span>
+          <span className="px-2 font-bold text-[36px] text-[#0029FF]">
+            70X*
+          </span>
+          <span className="px-2 text-[14px] font-bold">CHEAPER</span>
         </div>
       </div>
       <p className="text-center pb-8">*compared to manual labor work</p>
