@@ -17,9 +17,9 @@ const UseCases = () => {
         <h2 className="my-[8px] font-bold text-center text-[#111] text-[18px]">
           Use Cases
         </h2>
-        <article className="mt-8 flex justify-evenly items-center flex-wrap">
+        <article className="mt-8 flex justify-center items-center flex-wrap md:justify-evenly">
           {/* Card 1 */}
-          <div className="bg-[#fff] m-[4px] p-4 rounded-[12px] min-w-[100px] min-h-[170px]">
+          <div className="bg-[#fff] m-[4px] pt-1 pb-4 rounded-[12px] min-w-[110px] min-h-[100px]">
             <div className="flex flex-col justify-center items-center">
               <div className="my-2">
                 <UseCaseImage Image={ReportIcon} />
@@ -31,7 +31,7 @@ const UseCases = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-[#fff] m-[4px] p-4 rounded-[12px] min-w-[100px] min-h-[170px]">
+          <div className="bg-[#fff] m-[4px] pt-1 pb-4 rounded-[12px] min-w-[110px] min-h-[100px]">
             <div className="flex flex-col justify-center items-center">
               <div className="my-2">
                 <UseCaseImage Image={ConfirmationIcon} />
@@ -43,7 +43,7 @@ const UseCases = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="bg-[#fff] m-[4px] p-4 rounded-[12px] min-w-[100px] min-h-[170px]">
+          <div className="bg-[#fff] m-[4px] pt-1 pb-4 rounded-[12px] min-w-[110px] min-h-[100px]">
             <div className="flex flex-col justify-center items-center">
               <div className="my-2">
                 <UseCaseImage Image={CatalogsIcon} />
@@ -55,7 +55,7 @@ const UseCases = () => {
           </div>
 
           {/* Card 4 */}
-          <div className="bg-[#fff] m-[4px] p-4 rounded-[12px] min-w-[100px] min-h-[170px]">
+          <div className="bg-[#fff] m-[4px] pt-1 pb-4 rounded-[12px] min-w-[110px] min-h-[100px]">
             <div className="flex flex-col justify-center items-center">
               <div className="my-2">
                 <UseCaseImage Image={PurchaseIcon} />
@@ -67,7 +67,7 @@ const UseCases = () => {
           </div>
 
           {/* Card 5 */}
-          <div className="bg-[#fff] m-[4px] p-4 rounded-[12px] min-w-[100px] min-h-[170px]">
+          <div className="bg-[#fff] m-[4px] pt-1 pb-4 rounded-[12px] min-w-[110px] min-h-[100px]">
             <div className="flex flex-col justify-center items-center">
               <div className="my-2">
                 <UseCaseImage Image={BillIcon} />
@@ -79,7 +79,7 @@ const UseCases = () => {
           </div>
 
           {/* Card 6 */}
-          <div className="bg-[#fff] m-[4px] p-4 rounded-[12px] min-w-[100px] min-h-[170px]">
+          <div className="bg-[#fff] m-[4px] pt-1 pb-4 rounded-[12px] min-w-[110px] min-h-[100px]">
             <div className="flex flex-col justify-center items-center">
               <div className="my-2">
                 <UseCaseImage Image={ContractIcon} />
@@ -91,7 +91,7 @@ const UseCases = () => {
           </div>
 
           {/* Card 7 */}
-          <div className="bg-[#fff] m-[4px] p-4 rounded-[12px] min-w-[120px] min-h-[170px]">
+          <div className="bg-[#fff] m-[4px] pt-1 pb-4 rounded-[12px] min-w-[110px] min-h-[100px]">
             <div className="flex flex-col justify-center items-center">
               <div className="my-2">
                 <UseCaseImage Image={BankDataIcon} />
@@ -103,19 +103,24 @@ const UseCases = () => {
           </div>
 
           {/* Card 8 */}
-          <div className="bg-[#fff] m-[4px] p-4 rounded-[12px] min-w-[120px] min-h-[170px]">
+          <div className="bg-[#fff] m-[4px] pt-1 pb-4 rounded-[12px] min-w-[110px] min-h-[100px]">
             <div className="flex flex-col justify-center items-center">
               <div className="my-2">
-                <UseCaseImage Image={MoreIcon} />
+                {/* <UseCaseImage Image={MoreIcon} /> */}
+                <img src={MoreIcon} alt="Report Icon" width={60} />
               </div>
               <div className="my-2">
-                <UseCaseText text="Add many more..." />
+                {/* <UseCaseText text="Add many more..." /> */}
+                <p className="text-[#111] font-medium text-[12px] text-center">
+                  Add many
+                  <br /> more...
+                </p>
               </div>
             </div>
           </div>
         </article>
         <div className="mt-8 mb-4">
-          <h3 className="text-[#2E2E48] text-center text-[20px] font-extrabold">
+          <h3 className="text-[#2E2E48] text-center text-[16px] font-extrabold">
             in 20+ Latin Alphabet Languages (English, German, Spanish, French,
             Portugese, Italian, etc.)
           </h3>
