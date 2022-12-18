@@ -3,8 +3,8 @@ import Button from './Button';
 
 const GetInTouch = () => {
   return (
-    <section className="min-h-[100vh]">
-      <div className="mt-16">
+    <section id="contact" className="min-h-[100vh]">
+      <div className="mt-24">
         <h2 className="text-[30px] text-center text-[#0029FF] font-bold md:text-[40px]">
           Get in touch
         </h2>
