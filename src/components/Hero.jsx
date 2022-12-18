@@ -4,10 +4,10 @@ import HeroImage from '../assets/HeroImage.png';
 
 const Hero = () => {
   return (
-    <section className="max-w-6xl m-auto px-4 py-2">
+    <section id="home" className="max-w-6xl m-auto px-4 py-2">
       <div className="flex flex-col justify-center items-center flex-wrap md:flex-row md:justify-between">
         <div className="text-center md:text-left">
-          <h1 className="mb-[16px] font-bold text-[#0029FF] text-[32px] max-w-[400px] leading-[40px] md:text-[40px]">
+          <h1 className="mb-[16px] font-bold text-[#0029FF] text-[32px] md:max-w-[400px] leading-[40px] md:text-[40px]">
             Automate Manual Data Entry
           </h1>
           <h2 className="mb-[8px] font-bold text-[#111] text-[18px] max-w-[800px]">
