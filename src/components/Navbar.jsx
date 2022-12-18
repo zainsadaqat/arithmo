@@ -52,13 +52,13 @@ const Navbar = () => {
             <div className="min-h-screen md:hidden">
               <ul className="mt-8 flex flex-col justify-center items-center font-semibold text-[#111]">
                 <li className="text-[#111] text-3xl p-[32px]">
-                  <a href="#">How it works</a>
+                  <a href="#howitworks">How it works</a>
                 </li>
                 <li className="text-[#111] text-3xl p-[32px]">
-                  <a href="#">Features</a>
+                  <a href="#features">Features</a>
                 </li>
                 <li className="text-[#111] text-3xl p-[32px]">
-                  <a href="#">Contacts</a>
+                  <a href="#contact">Contacts</a>
                 </li>
                 <li className="flex flex-col items-center">
                   <div className="m-4">
@@ -101,13 +101,13 @@ const Navbar = () => {
               <div className="hidden md:block">
                 <ul className="flex items-center text-[14px] font-semibold text-[#111] mt-1">
                   <li className="ml-[40px]">
-                    <a href="#">How it works</a>
+                    <a href="#howitworks">How it works</a>
                   </li>
                   <li className="ml-[40px]">
-                    <a href="#">Features</a>
+                    <a href="#features">Features</a>
                   </li>
                   <li className="ml-[40px]">
-                    <a href="#">Contacts</a>
+                    <a href="#contact">Contacts</a>
                   </li>
                 </ul>
               </div>
