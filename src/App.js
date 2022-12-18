@@ -40,26 +40,7 @@ function App() {
         <Route path="/blogs" element={<Blog />} />
       </Routes>
 
-      <main className="min-h-[80vh] pt-16 md:pt-32">
-        {/* <CookiePolicy /> */}
-        {/* <Imprint /> */}
-        {/* <TermsAndCondition /> */}
-        {/* <PrivacyPolicy /> */}
-        <Hero />
-        <Stats />
-      </main>
-      <div className="min-h-[80vh]">
-        <Info />
-        <Structure />
-      </div>
-      <UseCases />
-      <ArithmoWorks />
-      <GetReady />
-      <Features />
-      <div id="contact" className="max-w-5xl mx-auto">
-        <GetInTouch />
-      </div>
-      <Footer />
+      
     </div>
   );
 }
