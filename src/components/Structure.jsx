@@ -4,9 +4,9 @@ import TableImage from '../assets/TableImage.png';
 
 const Structure = () => {
   return (
-    <section className="max-w-6xl m-auto px-4 py-2">
+    <section className="max-w-6xl m-auto p-4">
       <div className="min-h-[50vh] flex flex-col justify-end">
-        <div className="flex justify-evenly items-center flex-wrap">
+        <div className="flex flex-col justify-evenly items-center flex-wrap md:flex-row">
           <div>
             <h2 className="max-w-[350px] leading-10 text-center text-[30px] text-[#0029FF] font-bold md:text-[40px] md:text-left">
               Structure any Document
@@ -16,7 +16,7 @@ const Structure = () => {
             </h3>
           </div>
           <div>
-            <img src={AFontImage} alt="Font Image" width={200} height={200} />
+            <img src={AFontImage} alt="Font" width={200} height={200} />
           </div>
           <div>
             <span className="font-bold text-[#2E2E48] text-[40px] text-center">
@@ -24,7 +24,7 @@ const Structure = () => {
             </span>
           </div>
           <div>
-            <img src={TableImage} alt="Table Image" width={200} height={200} />
+            <img src={TableImage} alt="Table" width={150} height={150} />
           </div>
         </div>
       </div>
