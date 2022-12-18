@@ -1,7 +1,7 @@
 import React from 'react';
 
 const UseCaseImage = ({ Image }) => {
-  return <img src={Image} alt="Report Icon" width={60} height={60} />;
+  return <img src={Image} alt="Report Icon" width={80} />;
 };
 
 export default UseCaseImage;
