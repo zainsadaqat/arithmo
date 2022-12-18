@@ -17,10 +17,10 @@ const Footer = () => {
                   <a href="#home">Home</a>
                 </li>
                 <li className="mt-1">
-                  <a href="#">About</a>
+                  <a href="/about">About</a>
                 </li>
                 <li className="mt-1">
-                  <a href="#">Features</a>
+                  <a href="#features">Features</a>
                 </li>
               </ul>
             </div>
@@ -32,7 +32,7 @@ const Footer = () => {
               </div>
               <ul>
                 <li className="mt-1">
-                  <Link to="blogs">Blog</Link>
+                  <Link to="/blogs">Blog</Link>
                 </li>
                 <li className="mt-1">
                   <Link to="/faq">FAQs</Link>
