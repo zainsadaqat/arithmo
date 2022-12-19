@@ -4,8 +4,8 @@ import CheckMark from './CheckMark';
 const Features = () => {
   return (
     <section id="features" className="max-w-6xl mr-auto">
-      <div className="my-16 flex justify-center items-center">
-        <article className="bg-[#F1F3FA] p-4 flex justify-end items-center max-w-[1100px] flex-wrap">
+      <div className="my-16 flex justify-center items-center flex-wrap-reverse md:flex-nowrap">
+        <article className="bg-[#F1F3FA] p-4 flex justify-center md:justify-end items-center max-w-[1100px] flex-wrap">
           {/* Box 1 */}
           <div className="m-4 py-4 bg-white flex items-center rounded-[10px]">
             <div className="p-4">
