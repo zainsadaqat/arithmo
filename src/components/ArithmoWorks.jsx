@@ -15,7 +15,7 @@ const ArithmoWorks = () => {
           AI. You decide which data you need in the validation/selection step.
           Our advanced algorithms will take care of the rest.
         </p>
-        <div className="mt-8 max-w-7xl ml-auto flex items-center">
+        <div className="mt-8 max-w-7xl ml-auto flex flex-col justify-center items-center md:flex-row">
           {/* Left Side */}
           <div className="my-8 p-4">
             <img
@@ -27,8 +27,8 @@ const ArithmoWorks = () => {
           </div>
 
           {/* Right Side */}
-          <div className="bg-[#F1F3FA] min-w-[400px] p-8 pr-[300px] rounded-md">
-            <div className="flex items-center">
+          <div className="flex bg-[#F1F3FA] min-w-[400px] p-8 md:pr-[300px] rounded-md">
+            <div className="flex items-center justify-center md:justify-start">
               <div className="">
                 <img
                   src={ArithmoProcessGroup}
