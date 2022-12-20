@@ -39,8 +39,7 @@ function App() {
         <Route path="/faq" element={<FAQ />} />
         <Route path="/blogs" element={<Blog />} />
       </Routes>
-
-      
+      <Footer />
     </div>
   );
 }

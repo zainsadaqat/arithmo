@@ -21,7 +21,7 @@ const Features = () => {
           </div>
 
           {/* Box 2 */}
-          <div className="m-4 py-4 bg-white flex items-center rounded-[10px]">
+          <div className="min-h-[140px] m-4 py-4 bg-white flex items-center rounded-[10px]">
             <div className="p-4">
               <CheckMark />
             </div>
@@ -50,7 +50,7 @@ const Features = () => {
           </div>
 
           {/* Box 4 */}
-          <div className="m-4 py-4 bg-white flex items-center rounded-[10px]">
+          <div className="min-h-[162px] m-4 py-4 bg-white flex items-center rounded-[10px]">
             <div className="p-4">
               <CheckMark />
             </div>
@@ -66,7 +66,7 @@ const Features = () => {
           </div>
 
           {/* Box 5 */}
-          <div className="m-4 py-4 bg-white flex items-center rounded-[10px]">
+          <div className="min-h-[140px] m-4 py-4 bg-white flex items-center rounded-[10px]">
             <div className="p-4">
               <CheckMark />
             </div>

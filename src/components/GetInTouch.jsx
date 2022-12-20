@@ -3,7 +3,7 @@ import Button from './Button';
 
 const GetInTouch = () => {
   return (
-    <section id="contact" className="min-h-[100vh]">
+    <section id="contact" className="min-h-[75vh]">
       <div className="mt-24">
         <h2 className="text-[30px] text-center text-[#0029FF] font-bold md:text-[40px]">
           Get in touch
@@ -19,7 +19,7 @@ const GetInTouch = () => {
             {/* Name Wrapper Begins */}
             <div className="m-1">
               <input
-                className="bg-[#F1F3FA] md:w-[350px] p-4 rounded-[10px]"
+                className="bg-[#F1F3FA] md:w-[356px] p-4 rounded-[10px]"
                 type="text"
                 name="name"
                 placeholder="Name"
@@ -30,7 +30,7 @@ const GetInTouch = () => {
             {/* Email Wrapper Begins */}
             <div className="m-1 flex">
               <input
-                className="bg-[#F1F3FA] md:w-[350px] p-4 rounded-[10px]"
+                className="bg-[#F1F3FA] md:w-[356px] p-4 rounded-[10px]"
                 type="email"
                 name="email"
                 placeholder="Email"
@@ -50,7 +50,12 @@ const GetInTouch = () => {
           </div>
         </div>
         <div className="m-4 flex justify-center">
-          <Button text="Send" />
+          <button
+            type="button"
+            className="text-[12px] py-[10px] px-[46px] bg-[#0029FF] text-white font-bold rounded-[10px]"
+          >
+            Send
+          </button>
         </div>
       </form>
     </section>

@@ -5,7 +5,7 @@ import ArithmoProcessGroup from '../assets/ArithmoProcessGroup.png';
 
 const ArithmoWorks = () => {
   return (
-    <section id="howitworks" className="px-4 py-2">
+    <section id="howitworks" className="py-2">
       <div className="mt-24 pb-16">
         <h2 className="text-[30px] text-center text-[#0029FF] font-bold md:text-[40px]">
           How arithmo works
@@ -21,7 +21,7 @@ const ArithmoWorks = () => {
             <img
               src={ArithmoWorksImage}
               alt="How arithmo works image"
-              width={800}
+              width={1100}
               height={700}
             />
           </div>
