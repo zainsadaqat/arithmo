@@ -28,7 +28,6 @@ const LandingPage = () => {
       <div id="contact" className="max-w-5xl mx-auto">
         <GetInTouch />
       </div>
-      <Footer />
     </section>
   );
 };
