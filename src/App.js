@@ -20,6 +20,8 @@ import { Routes, Route } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
 import FAQ from './pages/FAQ';
 import Blog from './pages/Blog';
+import ArithmoRebuild from './components/ArithmoRebuild';
+import CookieConsentLib from './components/CookieConsentLib';
 
 function App() {
   return (
@@ -31,6 +33,10 @@ function App() {
       </header>
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        {/* <Route path="/howitworks" element={<ArithmoWorks />} /> */}
+        <Route path="/howitworks" element={<ArithmoRebuild />} />
+        <Route path="/features" element={<Features />} />
+        <Route path="/contact" element={<GetInTouch />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/cookie-policy" element={<CookiePolicy />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
@@ -39,6 +45,7 @@ function App() {
         <Route path="/faq" element={<FAQ />} />
         <Route path="/blogs" element={<Blog />} />
       </Routes>
+      <CookieConsentLib />
       <Footer />
     </div>
   );
