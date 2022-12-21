@@ -33,7 +33,9 @@ const Stats = () => {
           <span className="px-2 text-[14px] font-bold">CHEAPER</span>
         </div>
       </div>
-      <p className="text-center pb-8">*compared to manual labor work</p>
+      <p className="text-[14px] text-center pb-8">
+        *compared to manual labor work
+      </p>
     </section>
   );
 };
