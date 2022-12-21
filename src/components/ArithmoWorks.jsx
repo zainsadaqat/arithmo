@@ -10,7 +10,7 @@ const ArithmoWorks = () => {
         <h2 className="text-[30px] text-center text-[#0029FF] font-bold md:text-[40px]">
           How arithmo works
         </h2>
-        <p className="max-w-[800px] m-auto p-2 text-center">
+        <p className="max-w-[820px] m-auto p-2 text-center md:text-left">
           Arithmo identifies and extracts data from documents using cutting edge
           AI. You decide which data you need in the validation/selection step.
           Our advanced algorithms will take care of the rest.
@@ -21,24 +21,24 @@ const ArithmoWorks = () => {
             <img
               src={ArithmoWorksImage}
               alt="How arithmo works image"
-              width={1100}
+              width={1000}
               height={700}
             />
           </div>
 
           {/* Right Side */}
-          <div className="flex bg-[#F1F3FA] min-w-[400px] p-8 md:pr-[300px] rounded-md">
+          <div className="flex bg-[#F1F3FA] min-w-[400px] p-4 md:pr-[300px] rounded-md">
             <div className="flex items-center justify-center md:justify-start">
               <div className="">
                 <img
                   src={ArithmoProcessGroup}
                   alt="Arithmo Process Group"
-                  width={110}
+                  width={150}
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <div className="my-4 bg-white rounded-[10px] p-4 max-w-[200px]">
-                  <p className="text-[10px]">
+                  <p className="text-[10px] font-medium leading-7">
                     Upload Documents in A4 and PDF, PNG or JPEG/JPG Format
                   </p>
                 </div>
@@ -60,12 +60,12 @@ const ArithmoWorks = () => {
                   </div>
                 </div>
                 <div className="my-4 bg-white rounded-[10px] p-4 max-w-[200px]">
-                  <p className="text-[10px]">
+                  <p className="text-[12px] font-medium leading-7">
                     Validate and/or adjust the selections made by the AI{' '}
                   </p>
                 </div>
                 <div className="my-4 bg-white rounded-[10px] p-4 max-w-[200px]">
-                  <p className="text-[10px]">
+                  <p className="text-[12px] font-medium leading-7">
                     Download data in Excel, CSV or txt data format
                   </p>
                 </div>
