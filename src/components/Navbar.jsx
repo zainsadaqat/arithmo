@@ -101,13 +101,13 @@ const Navbar = () => {
               <div className="hidden md:block">
                 <ul className="flex items-center text-[14px] font-semibold text-[#111] mt-1">
                   <li className="ml-[40px]">
-                    <a href="#howitworks">How it works</a>
+                    <a href="/howitworks">How it works</a>
                   </li>
                   <li className="ml-[40px]">
-                    <a href="#features">Features</a>
+                    <a href="/features">Features</a>
                   </li>
                   <li className="ml-[40px]">
-                    <a href="#contact">Contacts</a>
+                    <a href="/contact">Contact</a>
                   </li>
                 </ul>
               </div>

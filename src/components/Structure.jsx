@@ -5,7 +5,7 @@ import TableImage from '../assets/TableImage.png';
 const Structure = () => {
   return (
     <section className="max-w-6xl m-auto p-4">
-      <div className="min-h-[50vh] flex flex-col justify-end">
+      <div className="min-h-[40vh] flex flex-col justify-end">
         <div className="flex flex-col justify-evenly items-center flex-wrap md:flex-row">
           <div>
             <h2 className="max-w-[350px] leading-10 text-center text-[30px] text-[#0029FF] font-bold md:text-[40px] md:text-left">

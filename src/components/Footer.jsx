@@ -1,7 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const Footer = () => {
+  const location = useLocation();
   return (
     <footer className="bg-[#0029FF] min-h-[40vh]">
       <article className="mx-auto max-w-6xl">
@@ -15,13 +16,13 @@ const Footer = () => {
                 </div>
                 <ul>
                   <li className="mt-1">
-                    <a href="#home">Home</a>
+                    <a href="/">Home</a>
                   </li>
                   <li className="mt-1">
-                    <a href="/about">About</a>
+                    <a href="/about-us">About</a>
                   </li>
                   <li className="mt-1">
-                    <a href="#features">Features</a>
+                    <a href="/features">Features</a>
                   </li>
                 </ul>
               </div>
@@ -54,7 +55,7 @@ const Footer = () => {
                 </div>
                 <ul>
                   <li className="mt-1">
-                    <a href="#contact">Contact Us</a>
+                    <a href="/contact">Contact Us</a>
                   </li>
                   <li className="mt-1">
                     <a href="#">Download PressKit</a>
