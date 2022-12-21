@@ -8,20 +8,14 @@ const FAQOption = ({ question, answer }) => {
     <div>
       <div className="flex justify-between items-center">
         <h3
+          onClick={() => setShow((prevState) => !prevState)}
           className={`text-[20px] font-bold ${
             show ? 'text-[#0029FF]' : 'text-[#111]'
           }`}
         >
           {question}
         </h3>
-        {!show && (
-          <img
-            onClick={() => setShow((prevState) => !prevState)}
-            src={AddIcon}
-            alt="Add"
-            width={25}
-          />
-        )}
+        {!show && <img src={AddIcon} alt="Add" width={25} />}
         {show && (
           <img
             onClick={() => setShow((prevState) => !prevState)}
