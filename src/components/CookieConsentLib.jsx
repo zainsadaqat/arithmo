@@ -7,7 +7,12 @@ const CookieConsentLib = () => {
       buttonText="Okay!"
       cookieName="Arithmo"
       style={{ background: '#0029FF' }}
-      buttonStyle={{ color: '#4e503b', fontSize: '13px' }}
+      buttonStyle={{
+        backgroundColor: '#fff',
+        color: '#0029FF',
+        fontSize: '13px',
+        fontWeight: 'bold',
+      }}
       expires={150}
     >
       This website uses cookies to enhance the user experience.
