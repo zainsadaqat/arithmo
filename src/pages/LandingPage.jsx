@@ -1,4 +1,5 @@
 import React from 'react';
+import ArithmoRebuild from '../components/ArithmoRebuild';
 import ArithmoWorks from '../components/ArithmoWorks';
 import Features from '../components/Features';
 import Footer from '../components/Footer';
@@ -22,7 +23,8 @@ const LandingPage = () => {
         <Structure />
       </div>
       <UseCases />
-      <ArithmoWorks />
+      {/* <ArithmoWorks /> */}
+      <ArithmoRebuild />
       <GetReady />
       <Features />
       <div id="contact" className="max-w-5xl mx-auto">
