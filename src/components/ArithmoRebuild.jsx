@@ -5,12 +5,12 @@ import ArithmoProcessGroup from '../assets/ArithmoProcessGroup.png';
 
 const ArithmoRebuild = () => {
   return (
-    <section className="mt-40 min-h-[100vh]">
+    <section className="mt-40 min-h-[90vh]">
       <div>
         <h2 className="text-[30px] text-center text-[#0029FF] font-bold md:text-[40px]">
           How arithmo works
         </h2>
-        <p className="max-w-[820px] m-auto p-2 text-center md:text-left">
+        <p className="max-w-[820px] font-medium m-auto p-2 text-center md:text-left">
           Arithmo identifies and extracts data from documents using cutting edge
           AI. You decide which data you need in the validation/selection step.
           Our advanced algorithms will take care of the rest.
