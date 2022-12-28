@@ -13,7 +13,7 @@ const Hero = () => {
           <h2 className="mb-[8px] font-bold text-[#111] text-[18px] max-w-[800px]">
             with the help of Artificial Intelligence
           </h2>
-          <p className="text-center text-[#111] text-[16px] md:max-w-[400px] md:text-left">
+          <p className="font-medium text-center text-[#111] text-[16px] md:max-w-[400px] md:text-left">
             Extract data from any document type scanned or unscanned. Min. 10X
             faster compared to manual labor work.
           </p>

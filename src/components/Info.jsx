@@ -25,7 +25,7 @@ const Info = () => {
                     <CheckMark />
                   </div>
                   <div className="p-2">
-                    <span>Validation</span>
+                    <span className="font-medium">Validation</span>
                   </div>
                 </li>
                 <li className="flex items-center">
@@ -33,7 +33,7 @@ const Info = () => {
                     <CheckMark />
                   </div>
                   <div className="p-2">
-                    <span>Comparison</span>
+                    <span className="font-medium">Comparison</span>
                   </div>
                 </li>
                 <li className="flex items-center">
@@ -41,7 +41,7 @@ const Info = () => {
                     <CheckMark />
                   </div>
                   <div className="p-2">
-                    <span>Reporting</span>
+                    <span className="font-medium">Reporting</span>
                   </div>
                 </li>
                 <li className="flex items-center">
@@ -49,7 +49,7 @@ const Info = () => {
                     <CheckMark />
                   </div>
                   <div className="p-2">
-                    <span>Editing</span>
+                    <span className="font-medium">Editing</span>
                   </div>
                 </li>
               </ul>
@@ -74,7 +74,7 @@ const Info = () => {
                     <CheckMark />
                   </div>
                   <div className="p-2">
-                    <span>Documentation</span>
+                    <span className="font-medium">Documentation</span>
                   </div>
                 </li>
                 <li className="flex items-center">
@@ -82,7 +82,7 @@ const Info = () => {
                     <CheckMark />
                   </div>
                   <div className="p-2">
-                    <span>Archiving</span>
+                    <span className="font-medium">Archiving</span>
                   </div>
                 </li>
                 <li className="flex items-center">
@@ -90,7 +90,7 @@ const Info = () => {
                     <CheckMark />
                   </div>
                   <div className="p-2">
-                    <span>Storing</span>
+                    <span className="font-medium">Storing</span>
                   </div>
                 </li>
                 <li className="flex items-center">
@@ -98,7 +98,7 @@ const Info = () => {
                     <CheckMark />
                   </div>
                   <div className="p-2">
-                    <span>Searching</span>
+                    <span className="font-medium">Searching</span>
                   </div>
                 </li>
               </ul>
@@ -123,7 +123,7 @@ const Info = () => {
                     <CheckMark />
                   </div>
                   <div className="p-2">
-                    <span>Visualization</span>
+                    <span className="font-medium">Visualization</span>
                   </div>
                 </li>
                 <li className="flex items-center">
@@ -131,7 +131,7 @@ const Info = () => {
                     <CheckMark />
                   </div>
                   <div className="p-2">
-                    <span>Data Analysis</span>
+                    <span className="font-medium">Data Analysis</span>
                   </div>
                 </li>
                 <li className="flex items-center">
@@ -139,7 +139,7 @@ const Info = () => {
                     <CheckMark />
                   </div>
                   <div className="p-2">
-                    <span>Machine Learning</span>
+                    <span className="font-medium">Machine Learning</span>
                   </div>
                 </li>
                 <li className="flex items-center">
@@ -147,7 +147,7 @@ const Info = () => {
                     <CheckMark />
                   </div>
                   <div className="p-2">
-                    <span>Forecasting</span>
+                    <span className="font-medium">Forecasting</span>
                   </div>
                 </li>
               </ul>
