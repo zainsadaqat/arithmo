@@ -16,7 +16,7 @@ const ArithmoRebuild = () => {
           Our advanced algorithms will take care of the rest.
         </p>
       </div>
-      <div className="max-w-7xl ml-auto">
+      <div className="max-w-8xl ml-auto">
         <article className="my-8 flex justify-around flex-col md:flex-row">
           {/* Left Side */}
           <div>
