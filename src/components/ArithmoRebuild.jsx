@@ -30,7 +30,7 @@ const ArithmoRebuild = () => {
                 <img
                   src={ArithmoProcessGroup}
                   alt="Arithmo Process Group"
-                  width={120}
+                  width={110}
                 />
               </div>
               {/* Inner Right */}
