@@ -7,7 +7,7 @@ const Features = () => {
       <div className="my-16 flex justify-center items-center flex-wrap-reverse md:flex-nowrap">
         <article className="bg-[#F1F3FA] p-4 flex justify-center md:justify-end items-center max-w-[1100px] flex-wrap">
           {/* Box 1 */}
-          <div className="m-4 py-4 bg-white flex items-center rounded-[10px]">
+          <div className="mr-[13px] m-4 py-4 bg-white flex items-center rounded-[10px]">
             <div className="p-4">
               <CheckMark />
             </div>
@@ -21,7 +21,7 @@ const Features = () => {
           </div>
 
           {/* Box 2 */}
-          <div className="min-h-[140px] m-4 py-4 bg-white flex items-center rounded-[10px]">
+          <div className="min-w-[312px] min-h-[140px] m-4 py-4 bg-white flex items-center rounded-[10px]">
             <div className="p-4">
               <CheckMark />
             </div>
@@ -58,7 +58,7 @@ const Features = () => {
               <h4 className="text-[12px] font-bold">
                 Data Selection & Validation
               </h4>
-              <p className="font-medium text-[12px] max-w-[230px] leading-6">
+              <p className="font-medium text-[11px] max-w-[230px] pr-[7px] leading-6">
                 You are in full control. You can at any point change selections,
                 edit, etc. You decide which data is important to you
               </p>
