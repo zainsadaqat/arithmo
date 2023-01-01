@@ -23,7 +23,7 @@ const ArithmoRebuild = () => {
             <img src={ArithmoWorksImage} alt="How Arithmo Works" width={1000} />
           </div>
           {/* Right Side */}
-          <div className="bg-[#F1F3FA] pr-[300px] p-8">
+          <div className="bg-[#F1F3FA] md:pr-[300px] p-8">
             <div className="flex items-center">
               {/* Inner Left */}
               <div>
