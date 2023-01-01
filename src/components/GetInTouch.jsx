@@ -45,6 +45,7 @@ const GetInTouch = () => {
               className="bg-[#F1F3FA] md:w-[720px] p-4 rounded-[10px]"
               name="help"
               rows="8"
+              cols="20"
               placeholder="How can we help you?"
             ></textarea>
           </div>
