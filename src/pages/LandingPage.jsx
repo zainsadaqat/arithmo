@@ -7,6 +7,7 @@ import GetInTouch from '../components/GetInTouch';
 import GetReady from '../components/GetReady';
 import Hero from '../components/Hero';
 import Info from '../components/Info';
+import NewArithmoWorks from '../components/NewArithmoWorks';
 import Stats from '../components/Stats';
 import Structure from '../components/Structure';
 import UseCases from '../components/UseCases';
@@ -24,7 +25,8 @@ const LandingPage = () => {
       </div>
       <UseCases />
       {/* <ArithmoWorks /> */}
-      <ArithmoRebuild />
+      {/* <ArithmoRebuild /> */}
+      <NewArithmoWorks />
       <GetReady />
       <Features />
       <div id="contact" className="max-w-5xl mx-auto">
