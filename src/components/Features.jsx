@@ -13,7 +13,7 @@ const Features = () => {
             </div>
             <div className="p-2">
               <h4 className="text-[12px] font-bold">GDPR Compliant</h4>
-              <p className="font-medium text-[12px] max-w-[230px] leading-6">
+              <p className="pr-2 font-medium text-[12px] max-w-[230px] leading-6">
                 Protects your data in compliance with the European Union GDPR.
                 Your Data will only be saved temporarly.
               </p>
@@ -41,7 +41,7 @@ const Features = () => {
             </div>
             <div className="p-2">
               <h4 className="text-[12px] font-bold">Easy to use</h4>
-              <p className="font-medium text-[12px] max-w-[230px] leading-6">
+              <p className="pr-2 font-medium text-[12px] max-w-[230px] leading-6">
                 Designed to be used by everybody. Requires no technical
                 knowledge. No coding. If you need help just watch the
                 explainatory video here
@@ -74,7 +74,7 @@ const Features = () => {
               <h4 className="text-[12px] font-bold">
                 No Installation required
               </h4>
-              <p className="font-medium text-[12px] max-w-[230px] leading-6">
+              <p className="pr-2 font-medium text-[12px] max-w-[230px] leading-6">
                 Browser based. Use it online anytime and anywhere
               </p>
             </div>
