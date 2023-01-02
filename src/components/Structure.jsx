@@ -11,7 +11,7 @@ const Structure = () => {
             <h2 className="max-w-[350px] leading-10 text-center text-[30px] text-[#0029FF] font-bold md:text-[40px] md:text-left">
               Structure any Document
             </h2>
-            <h3 className="mb-[8px] font-bold text-center text-[#111] text-[18px] max-w-[800px] md:text-left">
+            <h3 className="my-[8px] font-bold text-center text-[#111] text-[18px] max-w-[800px] md:text-left">
               scanned or unscanned
             </h3>
           </div>
