@@ -22,6 +22,9 @@ import FAQ from './pages/FAQ';
 import Blog from './pages/Blog';
 import ArithmoRebuild from './components/ArithmoRebuild';
 import CookieConsentLib from './components/CookieConsentLib';
+import NewArithmoWorks from './components/NewArithmoWorks';
+import NewBlogs from './pages/NewBlogs';
+import BlogPostView from './pages/BlogPostView';
 
 function App() {
   return (
@@ -34,7 +37,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         {/* <Route path="/howitworks" element={<ArithmoWorks />} /> */}
-        <Route path="/howitworks" element={<ArithmoRebuild />} />
+        <Route path="/howitworks" element={<NewArithmoWorks />} />
         <Route path="/features" element={<Features />} />
         <Route path="/contact" element={<GetInTouch />} />
         <Route path="/about-us" element={<AboutUs />} />
@@ -43,7 +46,8 @@ function App() {
         <Route path="/terms-and-condition" element={<TermsAndCondition />} />
         <Route path="/imprint" element={<Imprint />} />
         <Route path="/faq" element={<FAQ />} />
-        <Route path="/blogs" element={<Blog />} />
+        <Route path="/blogs" element={<NewBlogs />} />
+        <Route path="/blog-post-view" element={<BlogPostView />} />
       </Routes>
       <CookieConsentLib />
       <Footer />
