@@ -12,7 +12,12 @@ const GetInTouch = () => {
       <h3 className="font-bold text-center text-[#111] text-[18px]">
         Reach out for any questions
       </h3>
-      <form className="mt-8 max-w-3xl mx-auto">
+      <form
+        autoComplete="false"
+        action="https://formspree.io/f/meqvlgqr"
+        method="POST"
+        className="mt-8 max-w-3xl mx-auto"
+      >
         <div className="flex flex-col items-center justify-center">
           {/* Name and Email Wrapper Begins */}
           <div className="flex flex-col md:flex-row">
@@ -23,6 +28,7 @@ const GetInTouch = () => {
                 type="text"
                 name="name"
                 placeholder="Name"
+                required
               />
             </div>
             {/* Name Wrapper Ends */}
@@ -34,6 +40,7 @@ const GetInTouch = () => {
                 type="email"
                 name="email"
                 placeholder="Email"
+                required
               />
             </div>
             {/* Email Wrapper Ends */}
@@ -45,14 +52,15 @@ const GetInTouch = () => {
               className="bg-[#F1F3FA] md:w-[720px] p-4 rounded-[10px]"
               name="help"
               rows="8"
-              cols="20"
+              cols="24"
               placeholder="How can we help you?"
+              required
             ></textarea>
           </div>
         </div>
         <div className="m-4 flex justify-center">
           <button
-            type="button"
+            type="submit"
             className="text-[12px] py-[10px] px-[46px] bg-[#0029FF] text-white font-bold rounded-[10px]"
           >
             Send
