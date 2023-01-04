@@ -36,6 +36,9 @@ const NewArithmoWorks = () => {
                   <div className="flex items-center">
                     <div className="pr-4">
                       <img src={Group1} width={50} />
+                      {/* <p className="p-[2px] rounded-[50%] border-[#f2f3fb]">
+                        1
+                      </p> */}
                     </div>
                     <p className="pr-4 text-[12px] font-medium leading-7 max-w-[300px]">
                       Upload Documents in A4 and PDF, PNG or JPEG/JPG Format
