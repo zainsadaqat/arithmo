@@ -1,10 +1,7 @@
 # Arithmo
 
-> One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
-
-
+## Project Image
+![screencapture-localhost-3000-2023-01-05-01_51_18](https://user-images.githubusercontent.com/83048208/210647656-e2dda396-4be4-4ebf-ba0d-24ee176e5830.png)
 
 ## Built With
 
@@ -13,6 +10,7 @@
 - Tailwind CSS
 - React Router DOM
 - Cookie Consent
+- Formspree
 
 ## Live Demo (if available)
 
@@ -26,16 +24,25 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+You need a Code Editor (VS Code is Recommended) and a Web Browswer (Google Chrome is Recommended). Copy the following commands and paste them into your terminal if you're using (Mac or Linux) or command prompt if you're using Windows.
 
-### Setup
+### Setup and Run the Project
 
-### Install
+```
+git clone https://github.com/zainsadaqat/arithmo.git
+```
+```
+cd arithmo
+```
 
-### Usage
+```
+npm install
+```
 
-### Run tests
+```
+npm start
+```
 
-### Deployment
 
 ## Authors
 
