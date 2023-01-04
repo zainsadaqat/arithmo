@@ -25,20 +25,17 @@ const NewArithmoWorks = () => {
             <img src={ArithmoWorksImage} alt="How Arithmo Works" width={1000} />
           </div>
           {/* Right Side */}
-          <div className="bg-[#F1F3FA] md:pr-[300px] p-8">
-            <div className="flex items-center">
-              {/* Inner Left */}
-
-              {/* Inner Right */}
+          <div className="bg-[#F1F3FA] lg:pr-[300px] p-8">
+            <div className="flex justify-center items-center">
               <div>
                 {/* Box 1 */}
                 <div className="bg-white rounded-[10px] my-4 p-4 max-w-[400px]">
                   <div className="flex items-center">
                     <div className="pr-4">
-                      <img src={Group1} width={50} />
-                      {/* <p className="p-[2px] rounded-[50%] border-[#f2f3fb]">
+                      {/* <img src={Group1} width={50} /> */}
+                      <p className="text-[12px] font-medium pt-[4px] text-center w-[30px] h-[30px] border-2 rounded-[50%] border-[#F1F3FA]">
                         1
-                      </p> */}
+                      </p>
                     </div>
                     <p className="pr-4 text-[12px] font-medium leading-7 max-w-[300px]">
                       Upload Documents in A4 and PDF, PNG or JPEG/JPG Format
@@ -46,13 +43,13 @@ const NewArithmoWorks = () => {
                   </div>
                 </div>
 
-                <div className="flex items-center justify-end">
+                <div className="flex items-center justify-center md:justify-end">
                   <img
                     src={ArithmoProcessImage}
                     alt="Arithmo Process"
                     width={80}
                   />
-                  <p className="p-2 text-[#111] text-[20px] leading-8">
+                  <p className="font-medium p-2 text-[#111] text-[20px] leading-8">
                     arithmo
                     <br />
                     processes
@@ -63,9 +60,12 @@ const NewArithmoWorks = () => {
                 <div className="bg-white rounded-[10px] my-4 p-4 max-w-[400px]">
                   <div className="flex items-center">
                     <div className="pr-4">
-                      <img src={Group2} width={30} />
+                      {/* <img src={Group2} width={30} /> */}
+                      <p className="text-[12px] font-medium pt-[4px] text-center w-[30px] h-[30px] border-2 rounded-[50%] border-[#F1F3FA]">
+                        2
+                      </p>
                     </div>
-                    <p className="text-[12px] font-medium leading-7 max-w-[220px]">
+                    <p className="text-[12px] font-medium leading-7 max-w-[240px]">
                       Validate and/or adjust the selections made by the AI
                     </p>
                   </div>
@@ -75,7 +75,10 @@ const NewArithmoWorks = () => {
                 <div className="bg-white rounded-[10px] my-4 p-4 max-w-[400px]">
                   <div className="flex items-center">
                     <div className="pr-4">
-                      <img src={Group3} width={40} />
+                      {/* <img src={Group3} width={40} /> */}
+                      <p className="text-[12px] font-medium pt-[4px] text-center w-[30px] h-[30px] border-2 rounded-[50%] border-[#F1F3FA]">
+                        3
+                      </p>
                     </div>
                     <p className="text-[12px] font-medium leading-7 max-w-[242px]">
                       Download data in Excel, CSV or txt data format
