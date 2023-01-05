@@ -5,12 +5,11 @@
 
 ## Built With
 
-- **JSX**
-- ReactJS
-- Tailwind CSS
-- React Router DOM
-- Cookie Consent
-- Formspree
+- **ReactJS**
+- **Tailwind CSS**
+- **React Router DOM**
+- **Cookie Consent**
+- **Formspree**
 
 ### Prerequisites
 You need a Code Editor (VS Code is Recommended) and a Web Browswer (Google Chrome is Recommended). Copy the following commands and paste them into your terminal if you're using (Mac or Linux) or command prompt if you're using Windows.
