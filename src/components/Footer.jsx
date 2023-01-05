@@ -42,9 +42,6 @@ const Footer = () => {
                   <li className="mt-1">
                     <a href="#">Explain Video</a>
                   </li>
-                  <li className="mt-1">
-                    <a href="#">Help</a>
-                  </li>
                 </ul>
               </div>
 
