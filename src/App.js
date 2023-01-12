@@ -24,7 +24,12 @@ import ArithmoRebuild from './components/ArithmoRebuild';
 import CookieConsentLib from './components/CookieConsentLib';
 import NewArithmoWorks from './components/NewArithmoWorks';
 import NewBlogs from './pages/NewBlogs';
-import BlogPostView from './pages/BlogPostView';
+import BlogPostView1 from './pages/BlogPostsView/BlogPostView1'
+import BlogPostView2 from './pages/BlogPostsView/BlogPostView2'
+import BlogPostView3 from './pages/BlogPostsView/BlogPostView3'
+import BlogPostView4 from './pages/BlogPostsView/BlogPostView4'
+import BlogPostView5 from './pages/BlogPostsView/BlogPostView5'
+import BlogPostView6 from './pages/BlogPostsView/BlogPostView6'
 
 function App() {
   return (
@@ -47,7 +52,12 @@ function App() {
         <Route path="/imprint" element={<Imprint />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/blogs" element={<NewBlogs />} />
-        <Route path="/blog-post-view" element={<BlogPostView />} />
+        <Route path="/blog-post-view1" element={<BlogPostView1 />} />
+        <Route path="/blog-post-view2" element={<BlogPostView2 />} />
+        <Route path="/blog-post-view3" element={<BlogPostView3 />} />
+        <Route path="/blog-post-view4" element={<BlogPostView4 />} />
+        <Route path="/blog-post-view5" element={<BlogPostView5 />} />
+        <Route path="/blog-post-view6" element={<BlogPostView6 />} />
       </Routes>
       <CookieConsentLib />
       <Footer />

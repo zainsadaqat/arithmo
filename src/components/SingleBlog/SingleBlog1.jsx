@@ -1,8 +1,8 @@
 import React from 'react';
-import BlogImage from '../assets/BlogImage.jpg';
+import BlogImage from '../../assets/BlogImage.jpg';
 import { Link } from 'react-router-dom';
 
-const SingleBlog = () => {
+const SingleBlog1 = () => {
   return (
     <article className="max-w-[300px] m-4 mt-[24px]">
       <div>
@@ -23,4 +23,4 @@ const SingleBlog = () => {
   );
 };
 
-export default SingleBlog;
+export default SingleBlog1;

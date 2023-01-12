@@ -4,7 +4,7 @@ const CookieConsentLib = () => {
   return (
     <CookieConsent
       location="bottom"
-      buttonText="Okay!"
+      buttonText="I understand"
       cookieName="Arithmo"
       style={{ background: '#0029FF' }}
       buttonStyle={{
@@ -15,7 +15,10 @@ const CookieConsentLib = () => {
       }}
       expires={150}
     >
-      This website uses cookies to enhance the user experience.
+      We use cookies to provide our services and for analytics and marketing. To
+      find out more about our use of cookies, please see our Privacy Policy and
+      Cookie Policy. By continuing to browse our website, you agree to our use
+      of cookies.
     </CookieConsent>
   );
 };
