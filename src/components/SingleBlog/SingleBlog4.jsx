@@ -1,15 +1,16 @@
 import React from 'react';
-import BlogImage from '../assets/BlogImage.jpg';
+import BlogImage from '../../assets/BlogImage.jpg';
+
 import { Link } from 'react-router-dom';
 
-const SingleBlog = () => {
+const SingleBlog4 = () => {
   return (
     <article className="max-w-[300px] m-4 mt-[24px]">
       <div>
         <img src={BlogImage} alt="Blog" width={300} />
       </div>
       <div className="mt-4">
-        <Link to="/blog-post-view1">
+        <Link to="/blog-post-view4">
           <h3 className="text-[18px] text-[#0029FF] font-bold leading-6">
             A Gendered Dilemma: The Unspoken Smiles Fellowship as an Avenue of
             Equality
@@ -23,4 +24,4 @@ const SingleBlog = () => {
   );
 };
 
-export default SingleBlog;
+export default SingleBlog4;

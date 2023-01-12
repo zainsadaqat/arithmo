@@ -124,7 +124,9 @@ const Navbar = () => {
                 </button>
               </li>
               <li className="ml-[24px]">
-                <Button text="Sign up" />
+                <a href="https://www.google.com">
+                  <Button text="Sign up" />
+                </a>
               </li>
             </ul>
           </div>

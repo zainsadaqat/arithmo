@@ -40,10 +40,7 @@ const Footer = () => {
                     <Link to="/faq">FAQs</Link>
                   </li>
                   <li className="mt-1">
-                    <a href="#">Explain Video</a>
-                  </li>
-                  <li className="mt-1">
-                    <a href="#">Help</a>
+                    <a href="https://www.youtube.com/">Explain Video</a>
                   </li>
                 </ul>
               </div>
@@ -57,9 +54,14 @@ const Footer = () => {
                   <li className="mt-1">
                     <a href="/contact">Contact Us</a>
                   </li>
-                  <li className="mt-1">
-                    <a href="#">Download PressKit</a>
-                  </li>
+                  {/* <li className="mt-1">
+                    <a
+                      href="https://drive.google.com/file/d/1tmV1BpUwu8QcFseaqTso2zQJ2uLSrf6p/view?usp=share_link"
+                      download
+                    >
+                      Download PressKit
+                    </a>
+                  </li> */}
                 </ul>
               </div>
 
