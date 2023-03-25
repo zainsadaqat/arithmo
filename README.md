@@ -1,5 +1,8 @@
 # Arithmo
 
+## Live Project Link
+https://zainsadaqat-arithmo.netlify.app/
+
 ## Project Demo
 ![screencapture-localhost-3000-2023-01-05-01_51_18](https://user-images.githubusercontent.com/83048208/210647656-e2dda396-4be4-4ebf-ba0d-24ee176e5830.png)
 
